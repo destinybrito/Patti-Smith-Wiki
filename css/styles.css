@@ -1,0 +1,104 @@
+/* Stylesheet */
+
+body {
+	background: #CCC
+	}
+.container {
+	background: #FFF;
+	margin: 0 auto;
+	width: 95%; /*960px*/
+	max-width: 95% /*960px*/
+	}
+nav {
+		background: #9CF;
+		width: 100%;/*960px÷960px=100%*/
+	}
+	
+article {
+		background: #F99;
+		Float: left;
+		width: 66.6666666%;/*640px÷960px=66.6666666666%*/
+	}
+	
+aside {
+	background: #6CF;
+	float: left;
+	width: 33.33333333%;/*320px÷960px=33.333333333333%*/
+	color: #FFF;
+	}
+	dt {
+	color: #000;	
+		}
+
+footer {
+	background: #96F;
+	clear: both;
+	width: 100%; /*960px÷960px=100%*/
+	}
+	img {
+		border: 10px solid white;
+		}
+	
+/*==================
+	TYPOGRAPHY
+====================*/
+
+h1 {
+	font-size: 3em;/*48px÷16px=3em*/
+	}
+h2 {
+	font-size: 2.25em;/*36px÷16px=2.25em*/
+	}	
+h3 {
+	font-size: 1.5em; /*24px÷16px=1.5em*/
+	}
+p {
+	font-size: 1.25m: /*20p÷16px=1.25em*/
+	}	
+/*ALl Links*/
+a {
+	color: #fff;
+	}
+footer a {
+	font-size: 1em;/*20px÷20px=1em*/
+	}
+.festival {
+	float: right;
+	}
+/*==================
+	DESKTOP
+====================*/	
+@media screen and (max-width: 1024px) {
+	body {
+		background: #FFF;
+		}
+	}
+	/*end of desktop*/
+/*==================
+	TABLET
+====================*/	
+@media screen and (max-width: 768px) {
+	body {
+		background: #666;
+		}
+	}
+/*end of tablet*/	
+/*==================
+	PHONE
+====================*/		
+@media screen and (max-width: 480px) {
+	body {
+	background: #C9C;
+	}
+	aside {
+	float: none;	
+		}
+	
+	}	
+/*end of phone*/	
+	
+	
+	
+	
+	
+
